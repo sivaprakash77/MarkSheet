@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-position: 300px  380px;
+    border: 1px solid black;
+    width: 794px;
+    height: 1122px;
+    margin: 80px auto;
+    padding: 2%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px; 
+}
+.logodiv img{
+    width: 48%;
+    padding-left: 220px;
+    
+}
+.qrdiv img{
+    width: 20%;
+    padding-left: 370px;
+}
+.titlediv{
+    text-align: center;
+    padding-top: 5px;
+}
+.titlediv span{
+    color: rgb(147, 147, 34);
+}
+
+.studentinfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.namediv{
+    border: 1px solid black;
+    padding: 20px 95.1px;
+}
+.coursediv{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.detailsinfo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 38.1px;
+    text-align: center;
+}
+.detailsinfo p,.studentinfo p{
+    color:rgb(147, 147, 34);
+    font-weight: 1000;
+}
+
+.regdiv,.enrollno{
+    width: 22.85%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.regdiv,.enrollno,.add{
+    border: 1px solid black;
+}
+.add{
+    width: 48.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.totaldiv{
+    padding-top: 30px;
+}
+
+table{
+    margin-top: 5px;
+    margin-left: 37px;
+    width: 90.5%;
+    height: 50vh;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 7px;
+}
+.heading{
+    border-color: black;
+    color: rgb(147, 147, 34);
+    font-weight: 1000;
+}
+.mye{
+    border-color: black;
+    color: rgb(147, 147, 34);
+    font-weight: 1000;
+}
+input{
+    border: 0cap;
+    width: 60%;
+}
+.totalmarks1{
+    font-weight: 1200;
+    color: rgb(147, 147, 34);
+    text-align: start;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 35px;
+}
+.datediv{
+    padding-top: 50px;
+}
+.date{
+    font-weight: 1000;
+    color: rgb(147, 147, 34);
+}
+.sealdiv{
+    width: 50%;
+    text-align: center;
+    padding-left: 50px;
+    opacity: 0.3;
+}
+.signaturediv{
+    padding-top: 30px;
+    width: 28%;
+}
+.dce{
+    font-weight: 1000;
+    color: rgb(147, 147, 34);
+}
+h5{
+    color: rgb(147, 147, 34);
+    text-align: center;
+    padding-top: 20px;
+}
